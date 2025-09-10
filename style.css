@@ -1,0 +1,10 @@
+* {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "Fira Code", monospace;
+}
+
+.nav {
+  padding-left: 5%;
+  padding-top: 5%;
+}
