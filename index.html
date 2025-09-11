@@ -15,7 +15,7 @@
       <nav class="navbar">
         <ul>
           <li><img id="pfp-icon" src="favicon.png" alt="icon"></li>
-          <li><a href="catdeal3r.port0.org"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=28&pause=1000&color=FFFFFF&vCenter=true&width=435&height=55&lines=catdeal3r's+website" alt="catdeal3r.port0.org" /></a></li>
+          <li style="top-margin: 20px;"><a href="catdeal3r.port0.org"><img id="title-animated" src="title.svg" alt="catdeal3r.port0.org" /></a></li>
         </ul>
       </nav>
       <div class="main">
@@ -23,4 +23,17 @@
       </div>
     </div>
   </body>
+  <script>
+    document.addEventListener("mousemove", parallax);
+    function parallax(event) {
+      this.querySelectorAll(".bg-vid-div").forEach((shift) => {
+        const position = 10;
+        const x = (window.innerWidth - event.pageX * position) / 90;
+        const y = (window.innerHeight - event.pageY * position) / 90;
+        const rotate
+
+        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+      });
+    }
+  </script>
 </html>
