@@ -1,4 +1,4 @@
-h2 {
+h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
   font-family: "Playfair Display", monospace;
   font-weight: 200;
@@ -8,6 +8,8 @@ body {
   width: 99%;
   height: 100%;
   background-color: #000000;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .fake-body {
@@ -76,7 +78,7 @@ body {
   border: 0.1em solid rgba(256, 256, 256, 0.1);
   backdrop-filter: blur(0.8em);
   width: 60%;
-  height: 4.5em;
+  height: 15%;
   padding: 2em;
 }
 
