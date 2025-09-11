@@ -5,20 +5,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <title>catdeal3r.port0.org</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="bg-vid-div">
-      <video class="bg-vid" autoplay="true" loop="true" muted="true" playsinline=""><source src="bg.mp4" type="video/mp4"></video>
+      <video class="bg-vid" autoplay="true" loop="true" muted="true" playsinline=""><source src="assets/bg.mp4" type="video/mp4"></video>
     </div>
     <div class="fake-body">
       <nav class="navbar">
         <ul>
-          <li><img id="pfp-icon" src="favicon.png" alt="icon"></li>
+          <li><img id="pfp-icon" src="assets/favicon.png" alt="icon"></li>
           <!-- Link used for title.svg: "https://readme-typing-svg.demolab.com?font=Playfair+Display&size=37&pause=1000&color=FFFFFF&vCenter=true&width=435&height=30&lines=catdeal3r's+website"-->
-          <li style="margin-bottom: -0.35em;"><a href="catdeal3r.port0.org"><img id="title-animated" src="title.svg" alt="catdeal3r.port0.org" /></a></li>
-          <li style="margin-left: auto; margin-right: 1em;"><a href="https://github.com/catdeal3r"><img style="width: 2em;" src="github_logo.png" alt="github"></a></li>
+          <li style="margin-bottom: -0.35em;"><a href="catdeal3r.port0.org"><img id="title-animated" src="assets/title.svg" alt="catdeal3r.port0.org" /></a></li>
+          <li style="margin-left: auto; margin-right: 1em;"><a href="https://github.com/catdeal3r"><img style="width: 2em;" src="assets/github_logo.png" alt="github"></a></li>
         </ul>
       </nav>
       <div class="main">
@@ -27,16 +28,4 @@
       </div>
     </div>
   </body>
-  <script>
-    document.addEventListener("mousemove", parallax);
-    function parallax(event) {
-      this.querySelectorAll(".bg-vid-div").forEach((shift) => {
-        const position = 10;
-        const x = (window.innerWidth - event.pageX * position) / 90;
-        const y = (window.innerHeight - event.pageY * position) / 90;
-
-        shift.style.transform = `translateX(${x}px) translateY(${y}px) scale(1.2)`;
-      });
-    }
-  </script>
 </html>
