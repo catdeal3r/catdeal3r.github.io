@@ -16,11 +16,12 @@ body {
 }
 
 .navbar {
-  margin-left: 15%;
+  width: 100%;
 }
 
 .navbar ul {
   width: 80%;
+  margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(0.8em);
 
@@ -36,8 +37,6 @@ body {
   height: 10%;
   padding: 1em;
   border-radius: 1em;
-  left-margin: auto;
-  right-margin: auto;
 }
 
 .navbar ul li {
@@ -71,14 +70,13 @@ body {
 }
 
 .main {
-  margin-top: 4%;
-  margin-left: 20%;
+  margin: 4% auto;
   background-color: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
   border-radius: 1em;
   border: 0.1em solid rgba(256, 256, 256, 0.1);
   backdrop-filter: blur(0.8em);
   width: 60%;
-  height: 4em;
+  height: 4.5em;
   padding: 2em;
 }
 
