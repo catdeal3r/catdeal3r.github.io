@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
+* {
+  transition: all 100ms ease;
+}
+
 body {
   width: 99%;
   height: 100%;
@@ -54,6 +58,20 @@ body {
 #title-animated {
   height: 3em;
   width: 20em;
+}
+
+#github-logo {
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+#github-logo a img {
+  width: 2em;
+  opacity: 0.65;
+}
+
+#github-logo a img:hover {
+  opacity: 0.9;
 }
 
 .underline {
