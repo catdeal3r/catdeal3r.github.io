@@ -171,6 +171,11 @@ body {
   transition: height 300ms ease;
 }
 
+.img-carousel-item * {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .img-carousel-item:hover h4 {
   opacity: 0.6;
 }

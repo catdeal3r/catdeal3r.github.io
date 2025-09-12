@@ -1,15 +1,6 @@
 
 window.onload = function() {
   document.addEventListener("mousemove", parallax);
-  document.getElementById("fibreglass").addEventListener('click', function() {
-      window.open('https://github.com/catdeal3r/fibreglass', '_blank');
-  });
-  document.getElementById("fibreglass-classic").addEventListener('click', function() {
-      window.open('https://github.com/catdeal3r/fibreglass/tree/old', '_blank');
-  });
-  document.getElementById("screate").addEventListener('click', function() {
-      window.open('https://github.com/catdeal3r/screate', '_blank');
-  });
 }
 
 function parallax(event) {
