@@ -209,4 +209,5 @@ body {
   opacity: 0;
   transition: opacity 400ms ease;
   font-family: "Merriweather", serif;
+  font-weight: 400;
 }
