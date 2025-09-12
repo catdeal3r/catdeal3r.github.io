@@ -182,7 +182,6 @@ body {
 
 .img-carousel-item:hover {
   height: 21em;
-  cursor: pointer;
 }
 
 .img-carousel-item:hover img {
