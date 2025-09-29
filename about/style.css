@@ -225,7 +225,7 @@ body {
 
 .img-carousel-item {
   width: 30%;
-  height: 18em;
+  height: 19em;
   margin: 2em;
   margin-top: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
@@ -266,6 +266,8 @@ body {
   backdrop-filter: blur(0.8em);
   transition: opacity 400ms ease;
   object-fit: cover;
+  object-position: 0em -2em;
+  overflow: hidden;
 }
 
 .img-carousel-item h3 {
