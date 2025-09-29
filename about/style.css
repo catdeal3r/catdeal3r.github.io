@@ -151,10 +151,25 @@ body {
   font-family: "Merriweather", serif;
 }
 
-.main ul * {
+.main .list-item a {
   font-weight: 400;
   font-size: 1.17em;
   font-family: "Merriweather", serif;
+  color: #FFFFFF;
+  text-decoration: none;
+ 
+  background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, #FFFFFF, #FFFFFF);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.main .list-item a:hover,
+.main .list-item a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
 }
   
 .bg-vid {
