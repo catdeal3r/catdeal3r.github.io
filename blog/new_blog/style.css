@@ -147,6 +147,7 @@ body {
   font-size: 2.8em;
   margin: 0;
   margin-bottom: 0.2em;
+  margin-top: 0.5em;
 }
 
 .main h3 {
@@ -155,53 +156,15 @@ body {
   opacity: 0.7;
 }
 
-.blog-preview-bar {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background: 
-    linear-gradient(to right, rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0.5)),
-    linear-gradient(to right, #FFFFFF, #FFFFFF);
-  background-size: 100% 0.2em, 0 0.2em;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-  margin: 1em 0;
-}
-
-.blog-preview-bar:hover {
-  background-size: 0 0.2em, 100% 0.2em;
-}
-
-.blog-preview-bar:hover h4 {
-  opacity: 0.8;
-}
-
-.blog-preview-link {
-  text-decoration: none !important;
-}
-
-.blog-preview-bar h3 {
-  margin-left: 1em;
-  margin-right: 1em;
-  font-weight: 400;
-  font-size: 1.3em;
-  opacity: 0.9;
-  transition: opacity 400ms;
-}
-
-.blog-preview-bar h4 {
-  margin-left: 1em;
-  margin-right: 1em;
-  font-weight: 400;
-  font-size: 1em;
+#back-btn {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  font-family: "Pixelify Sans";
   opacity: 0.7;
   transition: opacity 400ms;
 }
 
-.blog-preview-date {
-  margin-left: auto !important;
-  margin-right: 1em;
-  display: block;
+#back-btn:hover {
+  opacity: 1;
 }
