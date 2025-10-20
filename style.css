@@ -152,9 +152,10 @@ body {
 }
 
 .main h2 {
-  font-size: 2.8em;
+  font-size: 2.6em;
   margin: 0;
   margin-bottom: 0.2em;
+  opacity: 0.9;
 }
 
 .main h3 {
@@ -167,4 +168,12 @@ body {
   text-decoration: none;
   color: #FFFFFF; 
   opacity: 1 !important;
+}
+
+#bottom-text {
+  font-weight: 400;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 2em;
+  left: 4em;
 }
